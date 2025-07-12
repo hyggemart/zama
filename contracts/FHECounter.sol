@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 import {FHE, euint32, externalEuint32} from "@fhevm/solidity/lib/FHE.sol";
-import {SepoliaConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
+import {SepoliaConfig} from "./fhevm-config/ZamaConfig.sol";
 
 /// @title A simple FHE counter contract
 contract FHECounter is SepoliaConfig {
